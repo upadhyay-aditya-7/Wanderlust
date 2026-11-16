@@ -2,8 +2,6 @@
 
 A full-stack property and vacation rental listing web application built with Node.js, Express.js, EJS, and MongoDB. Users can explore, list, search, and review properties around the world with interactive map integration and cloud image storage.
 
-🔗 **Live Demo:** [View Live Site](YOUR_RENDER_LIVE_URL_HERE)
-
 ---
 
 ## ✨ Features
