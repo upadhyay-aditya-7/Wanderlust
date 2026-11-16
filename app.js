@@ -69,6 +69,11 @@ const sessionOptions = {
 //     res.send("Hi, I am root");
 // });
 
+// Lightweight health-check endpoint (placed before session middleware to avoid DB writes)
+app.get("/ping", (req, res) => {
+    res.status(200).send("pong");
+});
+
 app.use(session(sessionOptions));
 app.use(flash());
 
